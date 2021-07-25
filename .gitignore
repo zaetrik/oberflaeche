@@ -1,4 +1,7 @@
 node_modules/
 dist/
 
+example/public/css/
+example/public/js/
+
 .DS_Store

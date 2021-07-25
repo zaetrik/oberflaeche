@@ -100,12 +100,7 @@ const ShopItems: Component<ShopItemsProps> = (props, ctx) => {
 ```ts
 type ComponentContext = {
   refresh: (oberflaecheId: string, options?: { diffing?: boolean }) => void;
-  refreshOther: (
-    component: Component,
-    props: Props,
-    oberflaecheId: string,
-    options?: { diffing?: boolean }
-  ) => void;
+  refreshOther: (component: Component, props: Props, oberflaecheId: string, options?: { diffing?: boolean }) => void;
   state: <STATE>(
     oberflaecheId: string,
     initialState?: STATE,
@@ -147,7 +142,7 @@ $ npm i -D @babel/cli @babel/plugin-transform-react-jsx @babel/preset-env @babel
       "@babel/plugin-transform-react-jsx",
       {
         "runtime": "automatic",
-        "importSource": "oberflaeche"
+        "importSource": "oberflaeche/dist"
       }
     ]
   ]
@@ -211,7 +206,6 @@ module.exports = {
     }),
   ],
 };
-
 ```
 
 Add these scripts to your `package.json`
