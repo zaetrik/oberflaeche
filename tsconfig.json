@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "CommonJS",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "declaration": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "isolatedModules": false,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

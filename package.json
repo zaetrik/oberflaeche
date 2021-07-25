@@ -1,0 +1,27 @@
+{
+  "name": "oberflaeche",
+  "version": "0.0.1",
+  "description": "Small library to build UIs with JSX in TypeScript or JavaScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaetrik/oberflaeche.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "zaetrik",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "csstype": "^3.0.8",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
