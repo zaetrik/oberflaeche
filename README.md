@@ -153,7 +153,7 @@ $ npm i -D @babel/cli @babel/plugin-transform-react-jsx @babel/preset-env @babel
 
 ```
 "jsx": "react-jsx",
-"jsxImportSource": "oberflaeche",
+"jsxImportSource": "oberflaeche/dist",
 ```
 
 `webpack.config.js`
