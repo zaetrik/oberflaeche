@@ -1,5 +1,7 @@
 # Oberfläche
 
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/oberflache-template-1xmhh)
+
 `Oberfläche` is a simple zero-dependency library that let's you build UIs with `JSX` in `TypeScript` or `JavaScript`. It also provides you with the possibility to use state, effects (experimental & clean up not fully working yet) and the option to manually refresh components. Furthermore it has a simple diffing algorithm for the rendering.
 
 Important to know is that the state is always global, which means you can, if you decide to, hook into the state of any other component and control or read it. The same goes for manual refreshing of components. These component utilities, or also called component context, are always provided via the second component function argument.
